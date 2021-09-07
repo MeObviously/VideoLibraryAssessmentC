@@ -92,6 +92,10 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\dbRestaurantBookings.mdf" />
+    <Content Include="App_Data\dbRestaurantBookings_log.ldf">
+      <DependentUpon>dbRestaurantBookings.mdf</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
