@@ -100,6 +100,9 @@
     </Content>
     <Content Include="home.aspx" />
     <Content Include="Web.config" />
+    <Content Include="\\man2\dev\Restaurant\Restaurant\css\bootstrap.min.css">
+      <Link>bootstrap.min.css</Link>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="home.aspx.designer.vb">
